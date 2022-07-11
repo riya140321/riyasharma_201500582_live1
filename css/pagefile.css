@@ -1,0 +1,55 @@
+
+a{
+    padding: 100px;
+}
+
+.navbar-nav{
+    --bs-nav-link-padding-y: 1rem;
+   
+}
+.navbar{
+    --bs-navbar-nav-link-padding-x: 1.5rem;
+}
+
+.navbar-brand {
+    color: red;
+    font-size: 1.6rem;
+}.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+}
+.text p{
+    width: 70rem;
+    font-size: 1.2rem;
+}
+.text h1{
+    padding: 1.5rem;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    height: 35rem;
+}
+.card-img-top{
+    height: 50%;
+}
+.card-body{
+    height: 3px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.details{
+    
+    margin-inline: 50px;
+    font-size: 1.5rem;
+}
+.card{
+    margin: 2rem;
+}
